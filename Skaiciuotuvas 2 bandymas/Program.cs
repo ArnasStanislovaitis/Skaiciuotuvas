@@ -33,11 +33,22 @@ namespace GitHub_skaiciuotuvas
         {
             Console.WriteLine("Iveskite pirma skaiciu");
             int Pirmas = int.Parse(Console.WriteLine());
+            Console.WriteLine("Iveskite Antra skaiciu");
             int Antras = int.Parse(Console.WriteLine());
             int Suma = Pirmas + Antras;
             Console.WriteLine(Suma);
             return Suma;
         } 
+        static int Atimtis()
+        {
+            Console.WriteLine("Iveskite pirma skaiciu");
+            int Pirmas = int.Parse(Console.WriteLine());
+            Console.WriteLine("Iveskite Antra skaiciu");
+            int Antras = int.Parse(Console.WriteLine());
+            int Rezultatas = Pirmas - Antras;
+            Console.WriteLine(Rezultatas);
+            return Rezultatas;
+        }
 
     }
 }
