@@ -29,6 +29,15 @@ namespace GitHub_skaiciuotuvas
                 }
             }
         }
+        static int Sudetis()
+        {
+            Console.WriteLine("Iveskite pirma skaiciu");
+            int Pirmas = int.Parse(Console.WriteLine());
+            int Antras = int.Parse(Console.WriteLine());
+            int Suma = Pirmas + Antras;
+            Console.WriteLine(Suma);
+            return Suma;
+        } 
 
     }
 }
