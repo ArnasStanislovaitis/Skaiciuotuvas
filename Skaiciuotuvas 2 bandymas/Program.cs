@@ -49,6 +49,15 @@ namespace GitHub_skaiciuotuvas
             Console.WriteLine(Rezultatas);
             return Rezultatas;
         }
-
+        static int Daugyba()
+        {
+            Console.WriteLine("Iveskite pirma skaiciu");
+            int Pirmas = int.Parse(Console.WriteLine());
+            Console.WriteLine("Iveskite Antra skaiciu");
+            int Antras = int.Parse(Console.WriteLine());
+            int Rezultatas = Pirmas * Antras;
+            Console.WriteLine(Rezultatas);
+            return Rezultatas;
+        }
     }
 }
